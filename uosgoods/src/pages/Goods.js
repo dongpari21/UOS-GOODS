@@ -6,14 +6,12 @@ import { Link } from 'react-router-dom';
 
 const Goods = () => {
     const products = [
-        { name: "jacket1", price: 10000, image: "jacket1.png" }, // 이미지 이름 확인
-        { name: "jacket1", price: 10000, image: "jacket1.png" }, // 이미지 이름 확인
-        { name: "jacket1", price: 10000, image: "jacket1.png" }, // 이미지 이름 확인
+        { name: "이루미 키링", price: "5,000", image: "keyRings.png" }, // 이미지 이름 확인
+        { name: "이루미 인형", price: "25,000", image: "Dolls.png" }, // 이미지 이름 확인
     ];  
     return (
         <div>
             <TopNav />
-            <h1>Goods</h1>
                 {products.map((product) => (
                 <Product key={product.name} {...product} />
                 ))}
