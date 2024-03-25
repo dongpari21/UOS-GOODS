@@ -8,7 +8,6 @@ const Main = () => {
         <div>
             <TopNav />
             <h1>Main</h1>
-            <Button children={"hello"} />
         </div>
     );
     }

@@ -1,8 +1,9 @@
 import styled from 'styled-components';
 
 export const ProductStyle = styled.div`
-    display: grid;
-    flex-direction: row;
-    justify-content: center;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+margin: 20px;   
+display: grid;
+flex-direction: row;
+justify-content: center;
+box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
 `;
